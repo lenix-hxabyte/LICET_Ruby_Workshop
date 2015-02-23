@@ -1,0 +1,3 @@
+Enter two integers:The sum is 8
+ Enter two floating point numbers:The product is 30.149999
+ Enter two strings:The concatenanted string is appletree 

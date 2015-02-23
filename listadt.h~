@@ -1,0 +1,9 @@
+/*Set of operations on list ADT*/
+#define N 100
+void insert (int,int); // Parameters: element,position
+void deletee(int,int);// Parameters : position
+int find(int);//Parameters:element
+void print_list(void);
+void make_null(void);
+int list[N];
+

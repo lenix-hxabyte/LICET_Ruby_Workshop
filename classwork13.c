@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void print(int);
+main()
+{
+	int a=10;
+	print(a);
+	return 0;
+}
+void print(int b)
+{
+	printf("\n*");
+	if(b>0)
+{
+	b--;
+
+	print(b);
+}
+}

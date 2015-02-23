@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int a;
+	float b;
+	int *ptr;
+	
+	printf("Enter the value of a and b ");
+	scanf("%d%d",&a,&b);
+	
+	ptr=a+b;
+	
+	printf("The value of the addition is %x",ptr);
+	
+	return 0;
+}

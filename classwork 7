@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+	int a;
+	float b;
+	void *ptr;
+	
+	printf("Enter the value of a and b ");
+	scanf("%d%d",&a,&b);
+	
+	printf("The value of a is %d and its address is %x",a,&a);
+	printf("The value od b is %d and its address is %x",b,&b);
+
+	ptr=&a;
+	printf("The value of %d is %x",*ptr,ptr);
+
+	ptr=&b;
+	printf("The value of %d is %x",*ptr,ptr);
+
+	return 0;
+	
+}

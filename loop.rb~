@@ -1,0 +1,7 @@
+["leonardlaur","asdfsdf","sdfghhjk","dfgd"].each do |arr|
+if arr.length<=10
+puts arr
+elsif arr.length>10
+puts arr
+end
+end
